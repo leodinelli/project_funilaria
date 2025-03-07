@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    background-color: #01438a;
+    width: 100vw; 
+    
+}
+
+
+.logoSite img {
+    width: 125px; 
+    
+}
+
+.iconInstagram a {
+    font-size: 24px; 
+    color: #ffffff; 
+    text-decoration: none;
+}
