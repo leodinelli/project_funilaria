@@ -31,22 +31,22 @@
             </p>
                 
             <div class="iconsSectionBlue">
-                <div class="iconText"> 
+                <div class="iconTextBlue"> 
                     <i class="fa-solid fa-location-dot"></i> 
                     <p>Av. Imirim, 2676 - Imirim - São Paulo/SP</p>
                 </div>
 
-                <div class="iconText">
+                <div class="iconTextBlue">
                     <i class="fa-solid fa-xmark"></i>
                     <p>Segunda - Sexta, 8h ás 18h</p>
                 </div>
 
-                <div class="iconText">
+                <div class="iconTextBlue">
                     <i class="fa-solid fa-phone"></i>
                     <p>Telefone: (11) 2239-8008</p>
                 </div>
 
-                <div class="iconText">
+                <div class="iconTextBlue">
                     <i class="fa-brands fa-whatsapp"></i>
                     <p>Whatsapp: (11) 94764-5783</p>
                 </div>
@@ -57,7 +57,46 @@
 
         <div class="section yellow">
 
+            <div class="icons-container">
+
+        <div class="iconTextYellow">
+            <img src="assets/images/shine.png" alt="">
+                <br><br>
+            <p>Funilaria</p>
         </div>
+        
+        <div class="iconTextYellow">
+            <img src="assets/images/carSprayGun.png" alt="">
+                <br><br>
+            <p>Pintura</p>
+        </div>
+        
+        <div class="iconTextYellow">
+            <img src="assets/images/crossed-hammers.png" alt="">
+                <br><br>
+            <p>Martelinho de Ouro</p>
+        </div>
+
+        <div class="iconTextYellow">
+            <img src="assets/images/polisher.png" alt="">
+                <br><br>
+            <p>Polimento e <br> Cristalização</p>
+        </div>
+
+        <div class="iconTextYellow">
+            <img src="assets/images/car-wash.png" alt="">
+                <br><br>
+            <p>Lavagem Interna</p>
+        </div>
+
+        <div class="iconTextYellow">
+            <img src="assets/images/bumper.png" alt="">
+                <br><br>
+            <p>Recuperação de <br> Parachoque</p>
+        </div>
+        
+    </div>
+</div>
 
 
 </body>

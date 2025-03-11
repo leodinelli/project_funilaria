@@ -14,15 +14,37 @@ header {
     align-items: center;
     gap: 20px;
     padding: 10px;
-    background-color: #01438a;
-    width: 100vw; 
-    
+    background-color: #01438a; 
 }
 
 
 .logoSite img {
     width: 125px; 
     
+}
+
+.section.yellow {
+    display: flex;
+    justify-content: center; 
+}
+
+.icons-container {
+    display: flex; 
+    gap: 40px; 
+}
+
+.iconTextYellow {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    color: #01438a;
+}
+
+.iconTextYellow img {
+    width: 95px;
+    height: auto;
 }
 
 .iconInstagram a {
@@ -58,14 +80,14 @@ header {
     font-size: 15px;
 }
 
-.iconText {
+.iconTextBlue {
     display: flex;
     align-items: center;
     gap: 8px;
     font-size: 15px;
 }
 
-.iconText i {
+.iconTextBlue i {
     font-size: 15px;
     color: #f4ad04;
 }
