@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -9,19 +14,153 @@ header {
     align-items: center;
     gap: 20px;
     padding: 10px;
-    background-color: #01438a;
-    width: 100vw; 
-    
+    background-color: #01438a; 
 }
-
 
 .logoSite img {
     width: 125px; 
-    
+}
+
+
+.section.yellow {
+    display: flex;
+    justify-content: center; 
+}
+
+.icons-container {
+    display: flex; 
+    gap: 40px; 
+}
+
+.iconTextYellow {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    color: #01438a;
+}
+
+.iconTextYellow img {
+    width: 95px;
+    height: auto;
 }
 
 .iconInstagram a {
     font-size: 24px; 
     color: #ffffff; 
     text-decoration: none;
+}
+
+.tellButton a{
+    background-color: #1d984a;
+    color: white;
+    padding: 20px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.section {
+    padding: 50px;
+}
+
+.blue {
+    background-color: #8295ae;
+    font-size: 40px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blue b{
+    color: #f4ad04;
+}
+
+.yellow {
+    background-color: #f4ad04; 
+    color: black;
+}
+
+.iconsSectionBlue {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 15px;
+}
+
+.iconTextBlue {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 20px;
+}
+
+.iconTextBlue i {
+    font-size: 20px;
+    color: #f4ad04;
+}
+
+
+.phone-mockup {
+    max-width: 300px;
+}
+
+.phone-mockup .screen video {
+    width: 100%;
+    border-radius: 8px;
+}
+
+
+.section.descreption {
+    display: flex;
+    align-items: flex-start;
+}
+
+.besouro img {
+    width: 700px;
+    margin-right: 25px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+.text p {
+    font-size: 20px;
+}
+
+.tellButton {
+    margin-top: 20px;
+}
+
+.darkBlue{
+    padding: 40px;
+    text-align: center;
+    color: white;
+    background-color: #01438a;
+}
+
+.section.images{
+    text-align: center;
+    color: #01438a;
+}
+
+
+.section.images img{
+    width: 400px;
+}
+    
+.section.location{
+    text-align: center;
+    background-color: #f4ad04;
+}
+
+footer {
+    padding: 30px;
+    background-color: #01438a;
+    color: white;
+    text-align: center;
 }
