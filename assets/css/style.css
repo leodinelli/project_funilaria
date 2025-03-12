@@ -17,11 +17,10 @@ header {
     background-color: #01438a; 
 }
 
-
 .logoSite img {
     width: 125px; 
-    
 }
+
 
 .section.yellow {
     display: flex;
@@ -53,14 +52,26 @@ header {
     text-decoration: none;
 }
 
+.tellButton a{
+    background-color: #1d984a;
+    color: white;
+    padding: 20px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
 .section {
     padding: 50px;
 }
 
 .blue {
     background-color: #8295ae;
-    font-size: 25px;
+    font-size: 40px;
     color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .blue b{
@@ -71,7 +82,6 @@ header {
     background-color: #f4ad04; 
     color: black;
 }
-
 
 .iconsSectionBlue {
     display: flex;
@@ -84,11 +94,73 @@ header {
     display: flex;
     align-items: center;
     gap: 8px;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .iconTextBlue i {
-    font-size: 15px;
+    font-size: 20px;
     color: #f4ad04;
 }
 
+
+.phone-mockup {
+    max-width: 300px;
+}
+
+.phone-mockup .screen video {
+    width: 100%;
+    border-radius: 8px;
+}
+
+
+.section.descreption {
+    display: flex;
+    align-items: flex-start;
+}
+
+.besouro img {
+    width: 700px;
+    margin-right: 25px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+.text p {
+    font-size: 20px;
+}
+
+.tellButton {
+    margin-top: 20px;
+}
+
+.darkBlue{
+    padding: 40px;
+    text-align: center;
+    color: white;
+    background-color: #01438a;
+}
+
+.section.images{
+    text-align: center;
+    color: #01438a;
+}
+
+
+.section.images img{
+    width: 400px;
+}
+    
+.section.location{
+    text-align: center;
+    background-color: #f4ad04;
+}
+
+footer {
+    padding: 30px;
+    background-color: #01438a;
+    color: white;
+    text-align: center;
+}
