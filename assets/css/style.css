@@ -164,3 +164,105 @@ footer {
     color: white;
     text-align: center;
 }
+
+
+@media screen and (min-width: 480px) and (max-width: 766px) {
+    
+    header {
+        text-align: center;
+        padding: 15px 0;
+    }
+
+    .logoSite img {
+        width: 100px;
+    }
+
+    .iconInstagram {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .section.blue {
+        flex-direction: column;
+        text-align: center;
+        font-size: 22px;
+        gap: 15px;
+        padding: 30px 15px;
+    }
+
+    .iconsSectionBlue {
+        align-items: center;
+        text-align: center;
+    }
+
+    .iconTextBlue {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        font-size: 16px;
+    }
+
+    .tellButton {
+        display: flex;
+        justify-content: center;
+    }
+
+    .tellButton a {
+        font-size: 16px;
+        padding: 12px 18px;
+    }
+
+
+    .icons-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        padding: 20px;
+    }
+
+    .iconTextYellow {
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .iconTextYellow img {
+        width: 60px;
+        height: auto;
+    }
+
+    .section.descreption {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .besouro img {
+        width: 100%;
+        margin: 0;
+    }
+
+    .text p {
+        font-size: 18px;
+    }
+
+    
+    .section.images img {
+        width: 90%;
+    }
+
+    
+    .section.location iframe {
+        width: 100%;
+        height: 300px;
+        border-radius: 10px;
+    }
+}
